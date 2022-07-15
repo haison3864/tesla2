@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div class="main1">
+        <div class="container1">
+            <div class="header1 d-flex justify-conten-between">
+
+                <h4 class="text-white">
+                    Welcome to our Online Store
+                </h4>
+
+                <a class="text-white text-end login" href="#">Login Register</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="main2">
+        <div class="container2">
+            <div class="text-start d-flex main2">
+                <h2>Online Shop</h2>
+                <div>
+                    <ul class="">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Category</a></li>
+                        <li><a href="#">Collection</a></li>
+                        <li><a href="#">Wishlist</a></li>
+                        <li><a href="#">About us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container3">
+        <div class="main3 d-flex">
+            <button class="btn btn-primary me-1" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Cart</button>
+
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+                id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas Cart</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body row">
+                    
+                    
+                </div>
+            </div>
+
+            <select name="" id="Category" class="me-1">
+                <option value="electronics">Electronics</option>
+                <option value="garnitures">Garnitures</option>
+                <option value="books">Books</option>
+                <option value="others">Others</option>
+            </select>
+
+            <input type="text" class="me-1 form-control" id="Name" placeholder="Name">
+
+            <input type="text" class="me-1 form-control" id="Cost" placeholder="Narxi">
+
+            <input type="file" class="me-1 form-control" onchange="picturing(this)">
+
+            <input  placeholder="qidiruv..." class="form-control me-1" type="text" oninput="searching2(this.value)">
+
+            <button class="btn btn-secondary me-1" onclick="Addd()">Add</button>
+
+            <button class="btn btn-danger" onclick="Del()">Delete</button>
+
+        </div>
+    </div>
+
+    <div class="main4">
+        <div class="row" id="row1">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card mt-2">
+                    <img src="./windovs.jpg" alt="rasm">
+                    <h3 class="text-center mt-2">
+                        ikonkalar
+                    </h3>
+                    <div class="part d-flex ">
+                        <div class="hlar">
+                            <h5 class="gift">
+                                Gift
+                            <h5>
+
+                            <h6 class="cat">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            </h6>
+                        </div>
+
+                        <h5 class="pul">
+                            $45
+                        </h5>
+                    </div>
+                    <button class="button_cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card mt-2">
+                    <img src="./windovs.jpg" alt="rasm">
+                    <h3 class="text-center mt-2">
+                        ikonkalar
+                    </h3>
+                    <div class="part d-flex ">
+                        <div class="hlar">
+                            <h5 class="gift">
+                                Gift
+                            <h5>
+
+                            <h6 class="cat">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            </h6>
+                        </div>
+
+                        <h5 class="pul">
+                            $45
+                        </h5>
+                    </div>
+                    <button class="button_cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./main.js"></script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+
+
+.main1 {
+    background-color: rgb(165, 163, 163);
+}
+.container1 {
+    width: 90%;
+    margin: 0 auto;
+}
+.header1 {
+    display: flex;
+    justify-content: end;
+    padding: 5px 0px;
+   
+}
+.login {
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 250px;
+
+}
+.container2 {
+    width: 90%;
+    margin: 0 auto;
+}
+.main2 {
+    width: 100%;
+}
+h2 {
+    color: red;
+    margin-right: 100px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li {
+    padding: 10px 0px;
+    display: inline-block;
+}   
+li a {
+    color: grey;
+    font-weight: 600;
+    padding: 10px 10px;
+    margin-top: 20px;
+    text-decoration: none;
+
+}
+.container3 {
+    background-color: rgb(160, 156, 156);
+    padding: 5px 0px;
+}
+.main3 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main4 {
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.part {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    
+}
+
+.lorem {
+    width: 80%;
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+.gift {
+    font-size: 25px;
+    color: grey;
+    margin: 0;
+    padding: 0;
+}
+.pul {
+    font-size: 30px;
+    color: grey;
+}
+.button_cart {
+    border: 5px solid grey;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
